@@ -13,18 +13,8 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <Post 
-            author="Lucas Viana" 
-            content="Lorem ipsum dolor sit amet consectetur"
-          />
-          <Post 
-            author="Willy Wonka"
-            content="Fabrica de chocolates o filme lança me dezembro nos cinemas"
-          />
-          <Post 
-            author="Gabriela Viana"
-            content="Eu Sou linda e Orgulhosa desculpa amores racalque passa reto e português tbm"
-          />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
